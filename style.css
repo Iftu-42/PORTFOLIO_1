@@ -87,8 +87,24 @@ body{
 }
 
 .about img{
-    margin:20px 0;
-    border-radius:50%;
+  /* Set a fixed width and height */
+  width: 300px;
+  height: 300px;
+  
+  /* This ensures the image doesn't look stretched */
+  object-fit: cover;
+  
+  /* Makes it a perfect circle */
+  border-radius: 50%;
+  
+  /* Optional: Adds a nice border to make it pop */
+  border: 5px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+  /* Centers it if your container is a flexbox */
+  display: block;
+  margin: 0 auto 20px auto;
+}
 }
 
 /* ===== SKILLS ===== */
