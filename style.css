@@ -81,6 +81,14 @@ body{
     text-align:center;
 }
 
+.about-container{
+    max-width:700px;
+    margin:auto;
+}
+
+.about img{
+    margin:20px 0;
+    border-radius:50%;
 }
 
 /* ===== SKILLS ===== */
