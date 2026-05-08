@@ -1,6 +1,3 @@
-// ==========================
-// MOBILE MENU TOGGLE
-// ==========================
 
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
@@ -11,11 +8,6 @@ menuToggle.addEventListener("click", () => {
 
 });
 
-
-
-// ==========================
-// SMOOTH SCROLL
-// ==========================
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
@@ -34,9 +26,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-// ==========================
-// SCROLL ANIMATION
-// ==========================
 
 const sections = document.querySelectorAll("section");
 
@@ -59,7 +48,6 @@ window.addEventListener("scroll", () => {
 
 
 
-// Initial style
 sections.forEach(section => {
 
     section.style.opacity = "0";
